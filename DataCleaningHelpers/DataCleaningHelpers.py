@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def attibutes_with_empty_ratio(data, threshold=0.3):
+def find_attibutes_with_empty_ratio(data, threshold=0.3):
     """ Find attributes which have ratio of empty values higher than the provided threshold.
 
     Args:
@@ -22,7 +22,7 @@ def attibutes_with_empty_ratio(data, threshold=0.3):
     return cols_with_empty
 
 
-def outliers_iqr(data, feature, log_scale=False, lower_iqr=1.5, upper_iqr=1.5):
+def find_outliers_iqr(data, feature, log_scale=False, lower_iqr=1.5, upper_iqr=1.5):
     """ Using the IQR (Tukey) method calculate the outliers and cleaned data.
 
     Args:
@@ -53,7 +53,7 @@ def outliers_iqr(data, feature, log_scale=False, lower_iqr=1.5, upper_iqr=1.5):
     return outliers, cleaned
 
 
-def outliers_z_score(data, feature, log_scale=False, left=3, right=3):
+def find_outliers_z_score(data, feature, log_scale=False, left=3, right=3):
     """ Using the z-deviation method calculate the outliers and cleaned data.
 
     Args:
@@ -84,7 +84,28 @@ def outliers_z_score(data, feature, log_scale=False, left=3, right=3):
     return outliers, cleaned
     
     
-def low_information_attributes(data, threshold=0.95):
+def find_outliers_quantile(data, feature, left=0.01, right=0.99):
+    """Find the outliers and cleaned data by ignoring the data outside of the provided quantiles.
+
+    Args:
+        data (DataFrame): DataFrame in which the outliers are being searched.
+        feature (str): Attribute of the DataFrame to work on.
+        left (float, optional): Quantile to be skipped on the left side of the feature. Defaults to 0.01.
+        right (float, optional): Quantile to be skipped on the right side of the feature. Defaults to 0.99.
+
+    Returns:
+        outliers (DataFrame): found outliers.
+        cleaned (DataFrame): data cleaned from the outliers.
+    """
+    x = data[feature]
+    lower_bound = x.quantile(left)
+    upper_bound = x.quantile(right)
+    outliers = data[(x < lower_bound) | (x > upper_bound)]
+    cleaned = data[(x > lower_bound) & (x < upper_bound)]
+    return outliers, cleaned
+
+
+def find_low_information_attributes(data, threshold=0.95):
     """ Find low information attributes, 
     i.e. having too many equal values or too many distinct values.
 
