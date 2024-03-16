@@ -1,6 +1,6 @@
 # Data Science Helpers
 In this folder I am collecting auxiliary functions for different standard data science tasks.
-## Repo Structure
+## Folder Structure
 ### Data Cleaning
 #### Attributes Clean-up
 Link: [DataCleaningAttributes.py](https://github.com/helios12/DataScienceProjects/blob/main/DataScienceHelpers/DataCleaningAttributes.py)

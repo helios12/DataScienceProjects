@@ -1,7 +1,7 @@
 # Tasks
 In this folder I am giving a brief description of the tasks, which have been solved in the course of the Data Science course at SkillFactory
 
-## Repo Structure
+## Folder Structure
 ### Research of bank customers churn data
 Link: [research-of-bank-customers-churn-module-13.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/research-of-bank-customers-churn-module-13.ipynb)
 

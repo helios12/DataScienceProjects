@@ -3,7 +3,7 @@ During my Data Scientist course at SkillFactory I am solving tasks and working o
 If you are just interested in data science, please feel free to contact me with any questions.
 ## Highlights
 For the moment the following task on visual research of bank customers churn is the most illustrative example of my work:
-[Research of bank customers churn data](https://github.com/helios12/DataScienceProjects/blob/main/tasks/data-visualization-module-13.ipynb)
+[Research of bank customers churn data](https://github.com/helios12/DataScienceProjects/blob/main/tasks/research-of-bank-customers-churn-module-13.ipynb)
 
 In addition I am working on a library of reusable code for data-science purposes:
 [Data Science Helpers](https://github.com/helios12/DataScienceProjects/tree/main/DataScienceHelpers)
