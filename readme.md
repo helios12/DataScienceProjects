@@ -36,3 +36,6 @@ In the course of studies I have mastered:
 * numpy
 * pandas
 * plotly express
+
+## Authors
+Dmitriy Golubitskiy [LinkedIn Profile](https://www.linkedin.com/in/golubitskiy/)
