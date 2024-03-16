@@ -3,7 +3,7 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Repo Structure
 ### Research of bank customers churn data
-Link: [data-visualization-module-13.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/data-visualization-module-13.ipynb)
+Link: [research-of-bank-customers-churn-module-13.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/research-of-bank-customers-churn-module-13.ipynb)
 
 The goal of the task was to analyze the bank customers data set and unsing the visual library plotly identify the possible reasons why the customers are exiting their relationship with the bank. 
 
@@ -23,3 +23,5 @@ The bank has increased exit rate for the following categories of customers:
 * Customers from Germany
 
 My recommendation to the bank would be to make targeted special offeres to the customers belonging to these categories. Investigation of the competitors offers can be very usesful. Since the customers are not leaving to nowhere (they are most probably leaving to a different bank), the bank should bring the conditions closer to the competition at least for the mentioned customer categories. By exceeding the competitors conditions the bank can count on customers switching from other banks.
+#### Screenshots
+![Exit rate per country in percent](https://i.imgur.com/T2d0FDT.png) ![Age distribution of the exited and loyal customers](https://i.imgur.com/1EBYyb6.png)
