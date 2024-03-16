@@ -38,4 +38,4 @@ In the course of studies I have mastered:
 * plotly express
 
 ## Authors
-Dmitriy Golubitskiy [LinkedIn Profile](https://www.linkedin.com/in/golubitskiy/)
+Dmitriy Golubitskiy | [LinkedIn Profile](https://www.linkedin.com/in/golubitskiy/) | [Codewars Profile](https://www.codewars.com/users/d_golubitsky)
