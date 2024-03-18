@@ -15,12 +15,14 @@ In this folder I am collecting auxiliary code for any data science purposes. Cur
 
 For more details see: 
 [Data Science Helpers -> readme](https://github.com/helios12/DataScienceProjects/blob/main/DataScienceHelpers/readme.md)
+
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
 
-Currently I have not finished any projects yet, but I will place the solutions of the future projects in this folder.
+* Project 1. Analysis of the HeadHunter.ru resumes. The goal of the project was to perform data preparation and clean-up before building a machine learning model. The model should be able to predict a candidate salary based on other candidate attributes. See: [Project-1.HH_Resume_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/Project-1.HH_Resume_analysis.ipynb)
 
 For more details see: [Projects -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/readme.md)
+
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
@@ -29,6 +31,7 @@ The following tasks have been solved in the frames of the Data Science course at
 * Research of bank customers churn data. The goal of the task was to analyze the bank customers data set and unsing the visual library plotly identify the possible reasons why the customers are exiting their relationship with the bank. See: [research-of-bank-customers-churn-module-13.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/research-of-bank-customers-churn-module-13.ipynb)
 
 For more details see: [Tasks -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/readme.md)
+
 ## Technology Stack
 In the course of studies I have mastered:
 

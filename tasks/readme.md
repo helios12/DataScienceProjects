@@ -7,12 +7,13 @@ Link: [research-of-bank-customers-churn-module-13.ipynb](https://github.com/heli
 
 The goal of the task was to analyze the bank customers data set and unsing the visual library plotly identify the possible reasons why the customers are exiting their relationship with the bank. 
 
-### Technology Stack
-While working on this library I have mastered:
+#### Technology Stack
+While working on this task I have mastered:
 
 * python
 * pandas
 * plotly express
+
 #### Conclusions
 The bank has increased exit rate for the following categories of customers:
 * Customers at the age of 38 years old and higher
@@ -23,5 +24,6 @@ The bank has increased exit rate for the following categories of customers:
 * Customers from Germany
 
 My recommendation to the bank would be to make targeted special offeres to the customers belonging to these categories. Investigation of the competitors offers can be very usesful. Since the customers are not leaving to nowhere (they are most probably leaving to a different bank), the bank should bring the conditions closer to the competition at least for the mentioned customer categories. By exceeding the competitors conditions the bank can count on customers switching from other banks.
+
 #### Screenshots
 ![Exit rate per country in percent](https://i.imgur.com/T2d0FDT.png) ![Age distribution of the exited and loyal customers](https://i.imgur.com/1EBYyb6.png)
