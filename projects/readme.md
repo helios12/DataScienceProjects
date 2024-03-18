@@ -24,6 +24,9 @@ While working on this project I have mastered:
 * Visual exploratory data analysis have shown that there is a dependency between the salary and other features like location, age, education, experience and unfortunately gender
 * Around 200 duplicates and outliers have been removed as part of the data clean-up as well as all empty values have been handled
 
+#### Execution instructions
+Extract the file 'dst-3.0_16_1_hh_database.csv' from the archive [dst-3.0_16_1_hh_database.csv.zip](https://github.com/helios12/DataScienceProjects/blob/main/data/dst-3.0_16_1_hh_database.csv.zip) and place it in the 'data' folder.
+
 #### Screenshots
 Link: [All screenshots](https://github.com/helios12/DataScienceProjects/tree/main/projects/img/project-1)
 
