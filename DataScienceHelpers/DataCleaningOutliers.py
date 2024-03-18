@@ -2,7 +2,7 @@ import numpy as np
 
 
 def find_outliers_iqr(data, feature, log_scale=False, lower_iqr=1.5, upper_iqr=1.5):
-    """ Using the IQR (Tukey) method calculate the outliers and cleaned data.
+    """Using the IQR (Tukey) method calculate the outliers and cleaned data.
 
     Args:
         data (DataFrame): DataFrame in which the outliers are being searched.
@@ -15,13 +15,7 @@ def find_outliers_iqr(data, feature, log_scale=False, lower_iqr=1.5, upper_iqr=1
         outliers (DataFrame): found outliers.
         cleaned (DataFrame): data cleaned from the outliers.
     """
-    if log_scale:
-        if data[data[feature] == 0][feature].count():
-            x = np.log(data[feature] + 1)
-        else:
-            x = np.log(data[feature])
-    else:
-        x = data[feature]
+    x = apply_log_scale(data, feature, log_scale)
     
     quartile_1, quartile_3 = x.quantile(0.25), x.quantile(0.75)
     iqr = quartile_3 - quartile_1
@@ -33,7 +27,7 @@ def find_outliers_iqr(data, feature, log_scale=False, lower_iqr=1.5, upper_iqr=1
 
 
 def find_outliers_z_score(data, feature, log_scale=False, left=3, right=3):
-    """ Using the z-deviation method calculate the outliers and cleaned data.
+    """Using the z-score method calculate the outliers and cleaned data.
 
     Args:
         data (DataFrame): DataFrame in which the outliers are being searched.
@@ -46,13 +40,7 @@ def find_outliers_z_score(data, feature, log_scale=False, left=3, right=3):
         outliers (DataFrame): found outliers.
         cleaned (DataFrame): data cleaned from the outliers.
     """
-    if log_scale:
-        if data[data[feature] == 0][feature].count():
-            x = np.log(data[feature] + 1)
-        else:
-            x = np.log(data[feature])
-    else:
-        x = data[feature]
+    x = apply_log_scale(data, feature, log_scale)
     
     mu = x.mean()
     sigma = x.std()
@@ -61,8 +49,32 @@ def find_outliers_z_score(data, feature, log_scale=False, left=3, right=3):
     outliers = data[(x<lower_bound) | (x>upper_bound)]
     cleaned = data[(x>=lower_bound) & (x<=upper_bound)]
     return outliers, cleaned
+
+
+def find_parameters_z_score(data, feature, log_scale=False, left=3, right=3):
+    """Calculate the parameters for the z-score method, i.e. mu, lower_bound, upper_bound.
+
+    Args:
+        data (DataFrame): DataFrame for which the z-score method is being applied.
+        feature (str): Attribute of the DataFrame to work on.
+        log_scale (bool, optional): Defines whether to analyize in log scale. Defaults to False.
+        left (float, optional): Standard deviation factor for the lower boundary. Defaults to 3.
+        right (float, optional): Standard deviation factor for the upper boundary. Defaults to 3.
+
+    Returns:
+        mu (float): Mean value uf the provided feature.
+        lower_bound (float): lower bound. Values below are outliers.
+        upper_bound (float): upper bound. Values above are outliers.
+    """
+    x = apply_log_scale(data, feature, log_scale)
     
-    
+    mu = x.mean()
+    sigma = x.std()
+    lower_bound = mu - left*sigma
+    upper_bound = mu + right*sigma
+    return mu, lower_bound, upper_bound
+
+
 def find_outliers_quantile(data, feature, left=0.01, right=0.99):
     """Find the outliers and cleaned data by ignoring the data outside of the provided quantiles.
 
@@ -82,3 +94,24 @@ def find_outliers_quantile(data, feature, left=0.01, right=0.99):
     outliers = data[(x < lower_bound) | (x > upper_bound)]
     cleaned = data[(x > lower_bound) & (x < upper_bound)]
     return outliers, cleaned
+
+
+def apply_log_scale(data, feature, log_scale):
+    """Appliy log scale to a feature of the DataFrame.
+
+    Args:
+        data (DataFrame): DataFrame to which the log scale is being applied.
+        feature (str): Attribute of the DataFrame to work on.
+        log_scale (bool): Defines whether to apply the log scale.
+
+    Returns:
+        Series: Specific feature with applied log scale if necessary.
+    """
+    if log_scale:
+        if data[data[feature] == 0][feature].count():
+            x = np.log(data[feature] + 1)
+        else:
+            x = np.log(data[feature])
+    else:
+        x = data[feature]
+    return x
