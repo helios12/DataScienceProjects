@@ -2,8 +2,7 @@
 During my Data Scientist course at SkillFactory I am solving tasks and working on projects. I am presenting the solutions of those tasks and projects as well as auxiliary code here for any potential employers. 
 If you are just interested in data science, please feel free to contact me with any questions.
 ## Highlights
-For the moment the following task on visual research of bank customers churn is the most illustrative example of my work:
-[Research of bank customers churn data](https://github.com/helios12/DataScienceProjects/blob/main/tasks/research-of-bank-customers-churn-module-13.ipynb)
+For the moment the following project on HeadHunter.ru resume data preparation and clean-up before building a machine learning model is the most illustrative example of my work: [Project-1.HH_Resume_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/Project-1.HH_Resume_analysis.ipynb)
 
 In addition I am working on a library of reusable code for data-science purposes:
 [Data Science Helpers](https://github.com/helios12/DataScienceProjects/tree/main/DataScienceHelpers)
