@@ -38,6 +38,9 @@ In the course of studies I have mastered:
 * numpy
 * pandas
 * plotly express
+* psycopg2
+* BeautifulSoup
+* git
 
 ## Authors
 Dmitriy Golubitskiy | [LinkedIn Profile](https://www.linkedin.com/in/golubitskiy/) | [Codewars Profile](https://www.codewars.com/users/d_golubitsky)
