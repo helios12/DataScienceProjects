@@ -20,5 +20,5 @@ While working on this project I have mastered:
 * Visual exploratory data analysis have shown that there is a dependency between the salary and other features like location, age, education, experience and unfortunately gender
 * Around 200 duplicates and outliers have been removed as part of the data clean-up as well as all empty values have been handled
 
-## Screenshots
+## Figures
 ![Median salary heatmap by age and education](https://i.imgur.com/uxCl2ez.png) ![Relation between age and work experience](https://i.imgur.com/pfDjL0Y.png) ![Age distribution over log scale](https://i.imgur.com/IILwbR9.png)
