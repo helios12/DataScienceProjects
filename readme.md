@@ -18,6 +18,8 @@ For more details see:
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
 
+* Project 2. Analysis of the HeadHunter.ru job openings. The goal of the project was to practise SQL knowledge on a database which contained the HeadHunger job openings. Using the SQL queries different analyses should be made revealing the patterns in the data. See: [Project-2.HH_Job_openings_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/Project-2.HH_Job_openings_analysis.ipynb)
+
 * Project 1. Analysis of the HeadHunter.ru resumes. The goal of the project was to perform data preparation and clean-up before building a machine learning model. The model should be able to predict a candidate salary based on other candidate attributes. See: [Project-1.HH_Resume_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/Project-1.HH_Resume_analysis.ipynb)
 
 For more details see: [Projects -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/readme.md)
@@ -35,8 +37,9 @@ For more details see: [Tasks -> readme](https://github.com/helios12/DataScienceP
 In the course of studies I have mastered:
 
 * python
-* numpy
+* SQL
 * pandas
+* numpy
 * plotly express
 * psycopg2
 * BeautifulSoup
