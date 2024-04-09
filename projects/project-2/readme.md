@@ -27,3 +27,12 @@ Whily working on this project I have mastered:
 ## Figures
 HeadHunter database scheme
 ![HeadHunter database scheme](https://i.imgur.com/lxdiHWE.png)
+
+Number of job openings per area
+![Number of job openings per area](https://i.imgur.com/rSRZUrM.png)
+
+Distribution of salary range
+![Distribution of salary range](https://i.imgur.com/kFe3lT0.png)
+
+Distribution of job openings by work experience
+![Distribution of job openings by work experience](https://i.imgur.com/xoUqnX7.png)

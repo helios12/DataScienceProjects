@@ -21,4 +21,11 @@ While working on this project I have mastered:
 * Around 200 duplicates and outliers have been removed as part of the data clean-up as well as all empty values have been handled
 
 ## Figures
-![Median salary heatmap by age and education](https://i.imgur.com/uxCl2ez.png) ![Relation between age and work experience](https://i.imgur.com/pfDjL0Y.png) ![Age distribution over log scale](https://i.imgur.com/IILwbR9.png)
+Median salary heatmap by age and education
+![Median salary heatmap by age and education](https://i.imgur.com/uxCl2ez.png) 
+
+Relation between age and work experience
+![Relation between age and work experience](https://i.imgur.com/pfDjL0Y.png) 
+
+Age distribution over log scale
+![Age distribution over log scale](https://i.imgur.com/IILwbR9.png)

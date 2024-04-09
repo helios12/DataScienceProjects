@@ -26,4 +26,8 @@ The bank has increased exit rate for the following categories of customers:
 My recommendation to the bank would be to make targeted special offeres to the customers belonging to these categories. Investigation of the competitors offers can be very usesful. Since the customers are not leaving to nowhere (they are most probably leaving to a different bank), the bank should bring the conditions closer to the competition at least for the mentioned customer categories. By exceeding the competitors conditions the bank can count on customers switching from other banks.
 
 #### Screenshots
-![Exit rate per country in percent](https://i.imgur.com/T2d0FDT.png) ![Age distribution of the exited and loyal customers](https://i.imgur.com/1EBYyb6.png)
+Exit rate per country in percent
+![Exit rate per country in percent](https://i.imgur.com/T2d0FDT.png) 
+
+Age distribution of the exited and loyal customers
+![Age distribution of the exited and loyal customers](https://i.imgur.com/1EBYyb6.png)
