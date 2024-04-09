@@ -27,7 +27,9 @@ My recommendation to the bank would be to make targeted special offeres to the c
 
 #### Screenshots
 Exit rate per country in percent
+
 ![Exit rate per country in percent](https://i.imgur.com/T2d0FDT.png) 
 
 Age distribution of the exited and loyal customers
+
 ![Age distribution of the exited and loyal customers](https://i.imgur.com/1EBYyb6.png)
