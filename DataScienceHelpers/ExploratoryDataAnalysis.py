@@ -1,10 +1,11 @@
+import plotly.figure_factory as ff
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 
 def display_histograms(data, cols=3, row_height=250):
     """For the purpose of the exploratory data analysis display all series of a dataframe 
-    as subplot histograms.
+    as subplot histograms with kde.
 
     Args:
         data (DataFrame): Dataframe for which series the histograms will be displayed.
@@ -14,10 +15,18 @@ def display_histograms(data, cols=3, row_height=250):
     rows, rows_rest = divmod(data.shape[1], cols)
     rows = rows + 1 if rows_rest else rows
 
+    specs_cols = []
+    for i in range(cols):
+        specs_cols.append({"secondary_y": True})
+    specs = []
+    for i in range(rows):
+        specs.append(specs_cols)
+
     fig = make_subplots(
         rows=rows, 
         cols=cols,
-        subplot_titles=data.columns
+        subplot_titles=data.columns,
+        specs=specs
     )
 
     i = 0
@@ -25,10 +34,22 @@ def display_histograms(data, cols=3, row_height=250):
         for c in range(cols):
             if i == data.shape[1]:
                 break
+            
+            kde = ff.create_distplot([data[data.columns[i]]], group_labels=[data.columns[i]])
+
             fig.add_trace(
                 go.Histogram(x=data.iloc[:, i], showlegend=False), 
                 row=r + 1, 
                 col=c + 1
+            )
+            fig.add_trace(
+                go.Scatter(
+                    kde['data'][1],
+                    showlegend=False
+                ), 
+                row=r + 1, 
+                col=c + 1,
+                secondary_y=True
             )
             i += 1
 
