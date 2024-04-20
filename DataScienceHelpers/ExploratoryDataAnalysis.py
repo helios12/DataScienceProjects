@@ -1,6 +1,12 @@
+import matplotlib.pyplot as plt
 import plotly.figure_factory as ff
 import plotly.graph_objects as go
+import seaborn as sns
+import warnings
 from plotly.subplots import make_subplots
+from scipy import stats
+
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 
 def display_histograms(data, cols=3, row_height=250):
@@ -56,3 +62,25 @@ def display_histograms(data, cols=3, row_height=250):
     fig.update_layout(autosize=True, height=row_height*rows)
 
     fig.show()
+    
+
+def display_qqplot_histograms(data):
+    """For the purpose of the exploratory data analysis display all series of a dataframe 
+    as Q-Q plot and histograms with kde.
+
+    Args:
+        data (DataFrame): Dataframe for which series the Q-Q plots and histograms will be displayed.
+    """
+    for i in range(data.shape[1]):
+        plt.subplots(1, 2, figsize=(8, 3))
+
+        plt.subplot(1, 2, 1)
+        stats.probplot(data[data.columns[i]], plot=plt)
+
+        plt.subplot(1, 2, 2)
+        ax = sns.histplot(data=data, x=data.columns[i], kde=True, line_kws={'lw': 1, 'ls': '-'})
+        ax.set_title(f'Hist {data.columns[i]}')
+        ax.lines[0].set_color('crimson')
+
+        plt.tight_layout()
+        plt.show()
