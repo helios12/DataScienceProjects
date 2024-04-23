@@ -3,7 +3,7 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Folder Structure
 ### Research of bank customers churn data
-Link: [research-of-bank-customers-churn-module-13.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/Task-2.Data_Science_job_analysis.ipynb)
+Link: [Task-1.Research_Of_Bank_Customers_Churn.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/Task-1.Research_Of_Bank_Customers_Churn.ipynb)
 
 The goal of the task was to analyze the bank customers data set and unsing the visual library plotly identify the possible reasons why the customers are exiting their relationship with the bank. 
 
