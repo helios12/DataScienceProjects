@@ -40,27 +40,29 @@ def display_histograms(data, cols=3, row_height=250):
             if i == data.shape[1]:
                 break
             
-            kde = ff.create_distplot([data[data.columns[i]]], group_labels=[data.columns[i]])
-
             fig.add_trace(
                 go.Histogram(x=data.iloc[:, i], showlegend=False), 
                 row=r + 1, 
                 col=c + 1
             )
-            fig.add_trace(
-                go.Scatter(
-                    kde['data'][1],
-                    showlegend=False
-                ), 
-                row=r + 1, 
-                col=c + 1,
-                secondary_y=True
-            )
+            
+            if is_numeric_dtype(data[data.columns[i]]):
+                kde = ff.create_distplot([data[data.columns[i]]], group_labels=[data.columns[i]])
+                fig.add_trace(
+                    go.Scatter(
+                        kde['data'][1],
+                        showlegend=False
+                    ), 
+                    row=r + 1, 
+                    col=c + 1,
+                    secondary_y=True
+                )
+
             i += 1
 
     fig.update_layout(autosize=True, height=row_height*rows)
 
-    fig.show()
+    fig.show('png')
     
 
 def display_qqplot_histograms(data):
