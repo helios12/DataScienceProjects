@@ -31,7 +31,7 @@ Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
 The following tasks have been solved in the frames of the Data Science course at SkillFactory:
 
-* Research of bank customers churn data. The goal of the task was to analyze the bank customers data set and unsing the visual library plotly identify the possible reasons why the customers are exiting their relationship with the bank. See: [research-of-bank-customers-churn-module-13.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/research-of-bank-customers-churn-module-13.ipynb)
+* Research of bank customers churn data. The goal of the task was to analyze the bank customers data set and unsing the visual library plotly identify the possible reasons why the customers are exiting their relationship with the bank. See: [Task-2.Data_Science_job_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/Task-2.Data_Science_job_analysis.ipynb)
 
 For more details see: [Tasks -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/readme.md)
 
