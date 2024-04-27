@@ -24,16 +24,18 @@ For more details see: [Project-2 -> readme](https://github.com/helios12/DataScie
 
 * Project 1. Analysis of the HeadHunter.ru resumes. The goal of the project was to perform data preparation and clean-up before building a machine learning model. The model should be able to predict a candidate salary based on other candidate attributes. See: [Project-1.HH_Resume_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-1/Project-1.HH_Resume_analysis.ipynb)
 
-For more details see: [Projects-1 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-1/readme.md)
+For more details see: [Project-1 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-1/readme.md)
 
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
-The following tasks have been solved in the frames of the Data Science course at SkillFactory:
+* Task 2. Data science job analysis. The goal of the task was to perform data cleaning and exploratory data analysis (EDA) on a data set of data science related jobs. The EDA consisted of a visual analysis and of picking and performing statistical tests. See: [Task-2.Data_Science_job_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-2/Task-2.Data_Science_job_analysis.ipynb)
 
-* Research of bank customers churn data. The goal of the task was to analyze the bank customers data set and unsing the visual library plotly identify the possible reasons why the customers are exiting their relationship with the bank. See: [Task-1.Research_Of_Bank_Customers_Churn.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/Task-1.Research_Of_Bank_Customers_Churn.ipynb)
+For more details see: [Task-2 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-2/readme.md)
 
-For more details see: [Tasks -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/readme.md)
+* Task 1. Research of bank customers churn data. The goal of the task was to analyze the bank customers data set and unsing the visual library plotly identify the possible reasons why the customers are exiting their relationship with the bank. See: [Task-1.Research_Of_Bank_Customers_Churn.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-1/Task-1.Research_Of_Bank_Customers_Churn.ipynb)
+
+For more details see: [Task-1 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-1/readme.md)
 
 ## Technology Stack
 In the course of studies I have mastered:
@@ -43,6 +45,7 @@ In the course of studies I have mastered:
 * pandas
 * numpy
 * plotly express
+* scipy
 * psycopg2
 * BeautifulSoup
 * git
