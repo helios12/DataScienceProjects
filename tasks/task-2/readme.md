@@ -9,7 +9,7 @@ While working on this task I have mastered:
 * python
 * pandas
 * plotly express
-* scipy
+* scipy.stats
 
 ## Conclusions
 Answers have been given to the following posed questions:
