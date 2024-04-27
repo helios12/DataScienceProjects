@@ -88,3 +88,39 @@ def display_qqplot_histograms(data):
 
         plt.tight_layout()
         plt.show()
+        
+
+def display_pvalue_conclusion(p, alpha):
+    """Display the conclusion based on the value of p-value and statistical significance.
+
+    Args:
+        p (float): p-value.
+        alpha (float): Statistical significance.
+    """
+    if p <= alpha:
+        print(
+            f'''p-value={p:.3f} is less than or equal to the defined statistical significance α={alpha:.2f}. The null hypothesis can be rejected.'''
+        )
+    else:
+        print(
+            f'''p-value={p:.3f} is greater than the defined statistical significance α={alpha:.2f}. The null hypothesis cannot be rejected.'''
+        )        
+
+def display_shapiro(data, alpha):
+    """Calculate the p-value based on the Shapiro-Wilk test and output the decision
+    whether the provided data is normal or not.
+
+    Args:
+        data (Series): Data to be cheked for normality.
+        alpha (float): Statistical significance.
+    """
+    _, p = stats.shapiro(data)
+
+    if p <= alpha:
+        print(
+            f'''p-value={p:.3f} is less than or equal to the defined statistical significance α={alpha:.2f}. Data does not have normal distribution.'''
+        )
+    else:
+        print(
+            f'''p-value={p:.3f} is greater than the defined statistical significance α={alpha:.2f}. Data has normal distribution.'''
+        )        
