@@ -7,14 +7,6 @@ For the moment the following task on the data science jobs analysis including da
 In addition I am working on a library of reusable code for data-science purposes:
 [Data Science Helpers](https://github.com/helios12/DataScienceProjects/tree/main/DataScienceHelpers)
 ## Repo Structure
-### Data Science Helpers
-Link: [Data Science Helpers](https://github.com/helios12/DataScienceProjects/tree/main/DataScienceHelpers)
-
-In this folder I am collecting auxiliary code for any data science purposes. Currently it contains functions for finding attributes having a certain ratio of empty values, low information attributes and outliers. 
-
-For more details see: 
-[Data Science Helpers -> readme](https://github.com/helios12/DataScienceProjects/blob/main/DataScienceHelpers/readme.md)
-
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
 
@@ -40,6 +32,14 @@ For more details see: [Task-2 -> readme](https://github.com/helios12/DataScience
 The goal of the task was to analyze the bank customers data set and unsing the visual library plotly identify the possible reasons why the customers are exiting their relationship with the bank. See: [Task-1.Research_Of_Bank_Customers_Churn.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-1/Task-1.Research_Of_Bank_Customers_Churn.ipynb)
 
 For more details see: [Task-1 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-1/readme.md)
+
+### Data Science Helpers
+Link: [Data Science Helpers](https://github.com/helios12/DataScienceProjects/tree/main/DataScienceHelpers)
+
+In this folder I am collecting auxiliary code for any data science purposes. Currently it contains functions for finding attributes having a certain ratio of empty values, low information attributes and outliers. 
+
+For more details see: 
+[Data Science Helpers -> readme](https://github.com/helios12/DataScienceProjects/blob/main/DataScienceHelpers/readme.md)
 
 ## Technology Stack
 In the course of studies I have mastered:
