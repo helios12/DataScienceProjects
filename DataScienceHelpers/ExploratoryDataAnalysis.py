@@ -8,7 +8,7 @@ from plotly.subplots import make_subplots
 from scipy import stats
 
 
-def display_histograms(data, cols=3, row_height=250):
+def display_histograms(data, cols=3, row_height=250, show_kde=False):
     """For the purpose of the exploratory data analysis display all series of a dataframe 
     as subplot histograms with kde.
 
@@ -16,6 +16,7 @@ def display_histograms(data, cols=3, row_height=250):
         data (DataFrame): Dataframe for which series the histograms will be displayed.
         cols (int, optional): The subplots will be split into the provieded number of columns. Defaults to 3.
         row_height (int, optional): The height of the row of subplots. Defaults to 250.
+        show_kde (bool, optional): Defines whethe to show the kde line or not.
     """
     rows, rows_rest = divmod(data.shape[1], cols)
     rows = rows + 1 if rows_rest else rows
@@ -46,7 +47,7 @@ def display_histograms(data, cols=3, row_height=250):
                 col=c + 1
             )
             
-            if is_numeric_dtype(data[data.columns[i]]):
+            if show_kde and is_numeric_dtype(data[data.columns[i]]):
                 kde = ff.create_distplot([data[data.columns[i]]], group_labels=[data.columns[i]])
                 fig.add_trace(
                     go.Scatter(
@@ -60,9 +61,11 @@ def display_histograms(data, cols=3, row_height=250):
 
             i += 1
 
-    fig.update_layout(autosize=True, height=row_height*rows)
+    fig.update_layout(autosize=True, height=row_height*rows, width=1000)
 
     fig.show('png')
+    
+    return fig
     
 
 def display_qqplot_histograms(data):
