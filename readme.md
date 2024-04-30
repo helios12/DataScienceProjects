@@ -23,6 +23,11 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-3. Introduction to Comet ML. 
+The goal of the task was to perform basic data cleaning, exploratory data model and building a logistic regression model. Diagrams, parameters and metrics have been logged to Comet ML. See: [Task-3.Introduction-to-comet-ml.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-3/Task-3.Introduction-to-comet-ml.ipynb)
+
+For more details see: [Task-3 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-3/readme.md)
+
 #### Task 2. Data science job analysis. 
 The goal of the task was to perform data cleaning and exploratory data analysis (EDA) on a data set of data science related jobs. The EDA consisted of a visual analysis and of picking and performing statistical tests. See: [Task-2.Data_Science_job_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-2/Task-2.Data_Science_job_analysis.ipynb)
 
