@@ -8,7 +8,7 @@ from plotly.subplots import make_subplots
 from scipy import stats
 
 
-def display_histograms(data, cols=3, row_height=250, show_kde=False):
+def display_histograms(data, cols=3, row_height=250, show_kde=False, title=''):
     """For the purpose of the exploratory data analysis display all series of a dataframe 
     as subplot histograms with kde.
 
@@ -17,6 +17,11 @@ def display_histograms(data, cols=3, row_height=250, show_kde=False):
         cols (int, optional): The subplots will be split into the provieded number of columns. Defaults to 3.
         row_height (int, optional): The height of the row of subplots. Defaults to 250.
         show_kde (bool, optional): Defines whethe to show the kde line or not.
+        title (str, optional): Text to be placed as the title of the diagram.
+
+    Returns:
+        fig (plotly.graph_objs.Figure): The rendered figure.
+
     """
     rows, rows_rest = divmod(data.shape[1], cols)
     rows = rows + 1 if rows_rest else rows
@@ -61,7 +66,12 @@ def display_histograms(data, cols=3, row_height=250, show_kde=False):
 
             i += 1
 
-    fig.update_layout(autosize=True, height=row_height*rows, width=1000)
+    fig.update_layout(
+        autosize=True, 
+        height=row_height*rows, 
+        width=1000,
+        title=title
+    )
 
     fig.show('png')
     
