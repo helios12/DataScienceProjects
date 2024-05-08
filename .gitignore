@@ -1,5 +1,6 @@
 __pycache__/
 .DS_Store
+.cometml-runs/
 data/dst-3.0_16_1_hh_database.csv
 data/hotels.csv
 resources/
