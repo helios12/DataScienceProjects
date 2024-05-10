@@ -19,18 +19,27 @@ Whily working on this project I have mastered:
 
 ## Conclusions
 * Not all activities performed as part of the exploratory data analysis improved the MAPE metric value. E.g., normalization, standardization and removing the multicollinear features did not improve MAPE.
-* While working with dates, better results have been achieved by parsing the date into multiple parts (e.g., year, month, day and day of week) and then encoding the fields as categories.
-* The lowest achieved MAPE metric was 0,13364. So, with the probability of around 86 % we can predict a hotel rating and in case of high deviations from the user's rating the Booking company can perform additional research on the hotel. 
+* The features which were important for the built model are not fully matching with the features identified as significant by Chi2 and ANOVA.
+* The lowest achieved MAPE metric was 0,13364. So, with the probability of around 86 % we can predict a hotel rating and in case of high deviations from the user's rating the Booking company can perform additional research on the hotel.
+* Improvement of the MAPE could be achieved via the text analysis of the positive and negative reviews and by more thorough analisis of the tags.
 
 ## Figures
+Aggregated hotel scores in different locations
+
+![Aggregated hotel scores in different locations](https://i.imgur.com/9SztIjM.png)
+
+Mean hotel scores for week number
+
+![Mean hotel scores for week number](https://i.imgur.com/EYj87d2.png)
+
 Most significant categorical variables for the target feature
 
-![Most significant categorical variables for the target feature](https://i.imgur.com/ifgQE92.png)
+![Most significant categorical variables for the target feature](https://i.imgur.com/QtOvzkA.png)
 
 Most significant numerical variables for the target feature
 
-![Most significant numerical variables for the target feature](https://i.imgur.com/TwFf7Kp.png)
+![Most significant numerical variables for the target feature](https://i.imgur.com/TmG9fTN.png)
 
-Correlation between the numeric features using a heat map
+Correlation between the features using a heat map
 
-![Correlation between the numeric features using a heat map](https://i.imgur.com/dEE4LaJ.png)
+![Correlation between the features using a heat map](https://i.imgur.com/JWIncp7.png)

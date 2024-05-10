@@ -3,6 +3,9 @@ This folder contains the projects, on which I have been working in the frames of
 
 ## Folder Structure
 
+### Project 3. Hotel reviews analysis
+Link: [Project-3](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-3)
+
 ### Project 2. Analysis of the HeadHunter.ru job openings
 Link: [Project-2](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-2)
 

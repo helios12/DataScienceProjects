@@ -2,13 +2,18 @@
 During my Data Scientist course at SkillFactory I am solving tasks and working on projects. I am presenting the solutions of those tasks and projects as well as auxiliary code here for any potential employers. 
 If you are just interested in data science, please feel free to contact me with any questions.
 ## Highlights
-For the moment the following task on the data science jobs analysis including data cleaning and exploratory data analysis with visual and statistical methods, is the most illustrative example of my work: [Task-2.Data_Science_job_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-2/Task-2.Data_Science_job_analysis.ipynb)
+For the moment the following project on hotel review analysis including data cleaning, exploratory data analysis, building a regression model and evaluating the quality of the model prediciton results, is the most illustrative example of my work:[Project-3.Hotel_reviews_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-3/Project-3.Hotel_reviews_analysis.ipynb)
 
 In addition I am working on a library of reusable code for data-science purposes:
 [Data Science Helpers](https://github.com/helios12/DataScienceProjects/tree/main/DataScienceHelpers)
 ## Repo Structure
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
+
+#### Project 3. Hotel reviews analysis 
+The goal of the project was to perform data cleaning, exploratory data analysis, build a regression model and evaluate the quality of the model prediciton results. See: [Project-3.Hotel_reviews_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-3/Project-3.Hotel_reviews_analysis.ipynb)
+
+For more details see: [Project-3 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-3/readme.md)
 
 #### Project 2. Analysis of the HeadHunter.ru job openings. 
 The goal of the project was to practise SQL knowledge on a database which contained the HeadHunger job openings. Using the SQL queries different analyses should be made revealing the patterns in the data. See: [Project-2.HH_Job_openings_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-2/Project-2.HH_Job_openings_analysis.ipynb)
