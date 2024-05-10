@@ -39,8 +39,12 @@ Most significant categorical variables for the target feature
 
 Most significant numerical variables for the target feature
 
-![Most significant numerical variables for the target feature](https://i.imgur.com/TmG9fTN.png)
+![Most significant numerical variables for the target feature](https://i.imgur.com/LsmHiXN.png)
 
 Correlation between the features using a heat map
 
 ![Correlation between the features using a heat map](https://i.imgur.com/JWIncp7.png)
+
+Most important features of the regression model
+
+![Most important features of the regression model](https://i.imgur.com/un7lg9O.png)
