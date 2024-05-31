@@ -59,6 +59,7 @@ In the course of studies I have mastered:
 * pandas
 * numpy
 * plotly express
+* sklearn
 * scipy.stats
 * psycopg2
 * BeautifulSoup
