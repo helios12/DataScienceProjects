@@ -29,9 +29,9 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
 #### Task-4. Supervised Learning: Classification.
-The goal of the task was to explore the following models of classification: logistic regression, decision tree and random forest on the bank customer churn dataset and perform some basic set-up of the models, like respectively regularization type, C-coefficient, max depth, max leaf objects, and identify optimum probability thresholds. See: [Task-4.Classification_Of_Bank_Customers_Churn.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-4/Task-4.Introduction-to-comet-ml.ipynb)
+The goal of the task was to explore the following models of classification: logistic regression, decision tree and random forest on the bank customer churn dataset and perform some basic set-up of the models, like respectively regularization type, C-coefficient, max depth, max leaf objects, and identify optimum probability thresholds. See: [Task-4.Classification_Of_Bank_Customers_Churn.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-4/Task-4.Classification_Of_Bank_Customers_Churn.ipynb)
 
-For more details see: [Task-3 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-3/readme.md)
+For more details see: [Task-4 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-4/readme.md)
 
 #### Task-3. Introduction to Comet ML. 
 The goal of the task was to perform basic data cleaning, exploratory data model and building a logistic regression model. Diagrams, parameters and metrics have been logged to Comet ML. See: [Task-3.Introduction-to-comet-ml.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-3/Task-3.Introduction-to-comet-ml.ipynb)
