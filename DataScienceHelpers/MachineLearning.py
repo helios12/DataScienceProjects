@@ -1,4 +1,4 @@
-import matplotlib as plt
+import plotly.graph_objects as go
 import numpy as np
 
 from sklearn import metrics
@@ -52,15 +52,27 @@ def plot_learning_curve(model, X, y, cv, scoring="f1", ax=None, title=""):
     )
 
     train_scores_mean = np.mean(train_scores, axis=1)
-    valid_scores_mean = np.mean(valid_scores, axis=1)
+    test_scores_mean = np.mean(valid_scores, axis=1)
 
-    if ax is None:
-        fig, ax = plt.subplots(figsize=(10, 4)) 
-    ax.plot(train_sizes, train_scores_mean, label="Train")
-    ax.plot(train_sizes, valid_scores_mean, label="Valid")
-    ax.set_title("Learning curve: {}".format(title))
-    ax.set_xlabel("Train data size")
-    ax.set_ylabel("Score")
-    ax.xaxis.set_ticks(train_sizes)
-    ax.set_ylim(0, 1)
-    ax.legend()
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(
+        x=train_sizes,
+        y=train_scores_mean,
+        mode='lines',
+        name='train'
+    ))
+    fig.add_trace(go.Scatter(
+        x=train_sizes,
+        y=test_scores_mean,
+        mode='lines',
+        name='test'
+    ))
+    fig.update_layout(
+        xaxis_title='Train data size',
+        yaxis_title='Score',
+        title=f'Learning curve: {title}',
+        width=1000,
+        height=500,
+        yaxis_range=[0, 1]
+    )
+    fig.show('png')
