@@ -28,6 +28,11 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-5. Machine Learning. Feature Selection
+The goal of the task was to apply the RFE and the filter-based methods for the feature selection, identify the important features, train the models on those features. Calculate metrics for the models and evaluate which of the feature selection methods is more efficient. See: [Task-5.ML_feature_selection.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-5/Task-5.ML_feature_selection.ipynb)
+
+For more details see: [Task-5 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-5/readme.md)
+
 #### Task-4. Supervised Learning: Classification.
 The goal of the task was to explore the following models of classification: logistic regression, decision tree and random forest on the bank customer churn dataset and perform some basic set-up of the models, like respectively regularization type, C-coefficient, max depth, max leaf objects, and identify optimum probability thresholds. See: [Task-4.Classification_Of_Bank_Customers_Churn.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-4/Task-4.Classification_Of_Bank_Customers_Churn.ipynb)
 

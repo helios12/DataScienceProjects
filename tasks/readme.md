@@ -3,6 +3,9 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Folder Structure
 
+### Task-5. Machine Learning. Feature Selection
+Link: [Task-5](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-5)
+
 ### Task-4. Supervised Learning: Classification
 Link: [Task-4](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-4)
 
