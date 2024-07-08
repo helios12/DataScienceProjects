@@ -28,6 +28,11 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-6. Machine Learning. Hyper Parameters Optimization
+The goal of the task was to apply different hyper parameter optimization methods like Grid Search, Random Search and Tree-Structured Parzen Estimators for two types of models Logistic Regression and Random Forest. F1-score metric must be calculated on all applied methods and thus the methods can be compared between each other on a given set of data. See: [Task-6.ML_predicting_biological_response.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-6/ML_predicting_biological_response.ipynb)
+
+For more details see: [Task-6 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-6/readme.md)
+
 #### Task-5. Machine Learning. Feature Selection
 The goal of the task was to apply the RFE and the filter-based methods for the feature selection, identify the important features, train the models on those features. Calculate metrics for the models and evaluate which of the feature selection methods is more efficient. See: [Task-5.ML_feature_selection.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-5/Task-5.ML_feature_selection.ipynb)
 

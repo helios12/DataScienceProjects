@@ -3,6 +3,9 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Folder Structure
 
+### Task-6. Machine Learning. Hyper Parameters Optimization
+Link: [Task-6](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-6)
+
 ### Task-5. Machine Learning. Feature Selection
 Link: [Task-5](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-5)
 
