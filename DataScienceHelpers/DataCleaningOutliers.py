@@ -26,6 +26,30 @@ def find_outliers_iqr(data, feature, log_scale=False, lower_iqr=1.5, upper_iqr=1
     return outliers, cleaned
 
 
+def find_parameters_iqr(data, feature, log_scale=False, lower_iqr=1.5, upper_iqr=1.5):
+    """Calculate the paramethers for the IQR (Tukey) method, i.e. iqr, lower_bound, upper_bound.
+
+    Args:
+        data (DataFrame): DataFrame in which the outliers are being searched.
+        feature (str): Attribute of the DataFrame to work on.
+        log_scale (bool, optional): Defines whether to analyize in log scale. Defaults to False.
+        lower_iqr (float, optional): IQR factor for lower boundary. Defaults to 1.5.
+        upper_iqr (float, optional): IQR factor for upper boundary. Defaults to 1.5.
+
+    Returns:
+        iqr (float): Quartile 3 - Quartile 1.
+        lower_bound (float): lower bound. Values below are outliers.
+        upper_bound (float): upper bound. Values above are outliers.
+    """
+    x = apply_log_scale(data, feature, log_scale)
+    
+    quartile_1, quartile_3 = x.quantile(0.25), x.quantile(0.75)
+    iqr = quartile_3 - quartile_1
+    lower_bound = quartile_1 - iqr*lower_iqr
+    upper_bound = quartile_3 + iqr*upper_iqr
+    return iqr, lower_bound, upper_bound
+
+
 def find_outliers_z_score(data, feature, log_scale=False, left=3, right=3):
     """Using the z-score method calculate the outliers and cleaned data.
 
