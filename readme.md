@@ -10,6 +10,11 @@ In addition I am working on a library of reusable code for data-science purposes
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
 
+#### Project 4. Machine Learning - Classification
+The goal of the project is to build a classification model which would predict if a customer is likely to open a deposit with the bank. That is achieved by going through the following steps of the CRISP DM process: requirements analysis, data analysis, data preparation, building a model, model evaluation. See: [Project_4.ML.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-4/Project_4.ML.ipynb)
+
+For more details see: [Project-4 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-4/readme.md)
+
 #### Project 3. Hotel reviews analysis 
 The goal of the project was to perform data cleaning, exploratory data analysis, build a regression model and evaluate the quality of the model prediciton results. See: [Project-3.Hotel_reviews_analysis.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-3/Project-3.Hotel_reviews_analysis.ipynb)
 
