@@ -1,5 +1,5 @@
 # Task-7. Machine Learning. Linear Algebra in the Context of Linear Methods
-Link: [Task-7.MATH-ML-2. Practice. Notebook.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-7/Task-7.MATH-ML-2. Practice. Notebook.ipynb)
+Link: [Task-7.MATH-ML-2_linear_algebra.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-7/Task-7.MATH-ML-2_linear_algebra.ipynb)
 
 The goal of the task was to experiment with linear regression, starting at the low level with Ordinary Least Squares method, proceeding with the standard sklearn linear regression, adding polynomial features, $L_1$ and $L_2$ -regularizations and hyperparameter optimization for the regularization.
 
