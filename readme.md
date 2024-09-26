@@ -33,6 +33,12 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-7. Machine Learning. Linear Algebra in the Context of Linear Methods
+The goal of the task was to experiment with linear regression, starting at the low level with Ordinary Least Squares method, proceeding with the standard sklearn linear regression, adding polynomial features, $L_1$ and $L_2$ -regularizations and hyperparameter optimization for the regularization.
+See: [Task-7.MATH-ML-2. Practice. Notebook.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-7/Task-7.MATH-ML-2. Practice. Notebook.ipynb)
+
+For more details see: [Task-7 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-7/readme.md)
+
 #### Task-6. Machine Learning. Hyper Parameters Optimization
 The goal of the task was to apply different hyper parameter optimization methods like Grid Search, Random Search and Tree-Structured Parzen Estimators for two types of models Logistic Regression and Random Forest. F1-score metric must be calculated on all applied methods and thus the methods can be compared between each other on a given set of data. See: [Task-6.ML_predicting_biological_response.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-6/Task-6.ML_predicting_biological_response.ipynb)
 
