@@ -11,4 +11,4 @@ While working on this task I have mastered:
 * mathematical analysis
 
 ## Conclusions
-I managed to implement both coordinate and stochastic gradient descent. For coordinate descent the weights of the linear regression model are matching the one of the sklearn library. For the stochastic gradient descent I managed to get the value of MSE 4.092 by playing with the learn rate and minimum distance.
+I managed to implement both coordinate and stochastic gradient descent. For coordinate descent the weights of the linear regression model are matching the one of the sklearn library. For the stochastic gradient descent I managed to get the value of MSE 3.599 by playing with the learn rate and minimum distance.
