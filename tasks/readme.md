@@ -3,6 +3,9 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Folder Structure
 
+### Task-8. Machine Learning. Stochastic Gradient and Coordinate Descent
+Link: [Task-8](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-8)
+
 ### Task-7. Machine Learning. Linear Algebra in the Context of Linear Methods
 Link: [Task-7](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-7)
 

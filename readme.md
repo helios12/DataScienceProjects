@@ -33,6 +33,12 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-8. Machine Learning. Stochastic Gradient and Coordinate Descent
+The goal of the task was to implement coordinate and stochastic gradient descent.
+See: [Task-8.MATH-ML-5_optimization.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-8/Task-8.MATH-ML-5_optimization.ipynb)
+
+For more details see: [Task-8 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-8/readme.md)
+
 #### Task-7. Machine Learning. Linear Algebra in the Context of Linear Methods
 The goal of the task was to experiment with linear regression, starting at the low level with Ordinary Least Squares method, proceeding with the standard sklearn linear regression, adding polynomial features, $L_1$ and $L_2$ -regularizations and hyperparameter optimization for the regularization.
 See: [Task-7.MATH-ML-2_linear_algebra.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-7/Task-7.MATH-ML-2_linear_algebra.ipynb)
