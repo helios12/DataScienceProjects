@@ -3,5 +3,7 @@ __pycache__/
 .cometml-runs/
 data/dst-3.0_16_1_hh_database.csv
 data/hotels.csv
+data/osrm_data_train_taxi.csv
+data/train-taxi-ride.csv
 resources/
 settings.py
