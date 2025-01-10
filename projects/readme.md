@@ -3,6 +3,9 @@ This folder contains the projects, on which I have been working in the frames of
 
 ## Folder Structure
 
+### Project 5. Taxi Ride Duration
+Link: [Project-5](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-5)
+
 ### Project 4. Machine Learning - Classification
 Link: [Project-4](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-4)
 
