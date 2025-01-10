@@ -2,7 +2,7 @@
 During my Data Scientist course at SkillFactory I am solving tasks and working on projects. I am presenting the solutions of those tasks and projects as well as auxiliary code here for any potential employers. 
 If you are just interested in data science, please feel free to contact me with any questions.
 ## Highlights
-For the moment the following project on taxi ride duration analysis including data cleaning, exploratory data analysis, building a regression model and evaluating the quality of the model prediciton results, is the most illustrative example of my work:[Project-5.Taxi_ride_duration.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-5/Project-5.Taxi_ride_duration.ipynb)
+For the moment the following project on taxi ride duration analysis including data cleaning, exploratory data analysis, building a regression model and evaluating the quality of the model prediciton results, is the most illustrative example of my work: [Project-5.Taxi_ride_duration.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-5/Project-5.Taxi_ride_duration.ipynb)
 
 In addition I am working on a library of reusable code for data-science purposes:
 [Data Science Helpers](https://github.com/helios12/DataScienceProjects/tree/main/DataScienceHelpers)
@@ -13,7 +13,7 @@ Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/proje
 #### Project 5. Taxi Ride Duration
 The goal of the project is to build a regression model to predict a taxi ride duration and thus be able to calculate the taxi ride price. Before that the data gets cleaned, basic exploratory data analysis are performed, categorical features get encoded, important features get selected and and the data is normalied. Then several regression models are being built and compared with each other using the Root Mean Squared Log Error metric. See [Project-5.Taxi_ride_duration.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-5/Project-5.Taxi_ride_duration.ipynb)
 
-For more details see: [Project-4 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-5/readme.md)
+For more details see: [Project-5 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-5/readme.md)
 
 #### Project 4. Machine Learning - Classification
 The goal of the project is to build a classification model which would predict if a customer is likely to open a deposit with the bank. That is achieved by going through the following steps of the CRISP DM process: requirements analysis, data analysis, data preparation, building a model, model evaluation. See: [Project_4.ML.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-4/Project_4.ML.ipynb)
