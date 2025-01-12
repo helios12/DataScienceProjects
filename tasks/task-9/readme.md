@@ -12,3 +12,9 @@ While working on this task I have mastered:
 
 ## Conclusions
 I have trained the ComplementNB classifier on the train dataset and applied it to the test dataset. The AUC (Area Under the ROC Curve) is 0.96 which indicates a good model performance. Then I have experimented with the alpha parameter of the classifier and got a slight increase in the F1-metric: 0.96 to 0.98.
+
+## Figures
+
+Dependency of F1-score on alpha value
+
+![Dependency of F1-score on alpha value](https://i.imgur.com/FEjLB7C.png)
