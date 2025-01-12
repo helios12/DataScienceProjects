@@ -3,6 +3,9 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Folder Structure
 
+### Task-9. Text Classification Using Naive Bayes Classifier
+Link: [Task-9](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-9)
+
 ### Task-8. Machine Learning. Stochastic Gradient and Coordinate Descent
 Link: [Task-8](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-8)
 

@@ -38,6 +38,12 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-9. Text Classification Using Naive Bayes Classifier
+The goal of the task is to use naive Bayes classifier to determine if an email is a spam or not. I used the ComplementNB classifier implementation from the sklearn library for that.
+See: [Task-9.MATH-ML-7.Naive_bayes_classifier.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-9/Task-9.MATH-ML-7.Naive_bayes_classifier.ipynb)
+
+For more details see: [Task-9 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-9/readme.md)
+
 #### Task-8. Machine Learning. Stochastic Gradient and Coordinate Descent
 The goal of the task was to implement coordinate and stochastic gradient descent.
 See: [Task-8.MATH-ML-5_optimization.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-8/Task-8.MATH-ML-5_optimization.ipynb)
