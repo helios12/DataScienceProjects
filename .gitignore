@@ -9,5 +9,6 @@ data/Project5_submission_gb.csv
 data/Project5_test_data.csv
 data/Project5_train-taxi-ride.csv
 data/Project6_customer_segmentation_project.csv
+projects/project-6/Project6_customer_segmentation_project_cleaned.csv
 resources/
 settings.py
