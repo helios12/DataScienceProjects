@@ -1,28 +1,17 @@
-# Project 6. Customer segmentation
+# Project 6. Customer Segmentation
 Link: [Project-6.Customer_segmentation.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-6/Project-6.Customer_segmentation.ipynb)
 
 The goal is to segment ecommerce customers into clusters and to be able to predict to which claster new customers will belong. To do that we clean the data, perform basic exploratory data analysis, select the meaningful features and build the RFM (Recency/Frequency/Monetary) model. We experiment with feature space reduction using the PCA and t-SNE algorithms; use K-Means, EM-Model (GaussianMixture) and Agglomerative Clustering to build the segments. And finally we transition from the clustering to classification tasks to predict the cluster of new customers.
 
-
-
-
-
 In the data preparation step I have used the following techniques:
 
-* Connecting data from multiple data sources
+* Grouping data in multiple different ways
 * Plotly Express to visualize data
-* One-hot encoder to encode categorical features
-* Picked the most relevant features for the classification using filter based feature selection (SelectKBest)
-* Normalized data using the MinMaxScaler
-
-In the modelling step I went from simple to more complicated models as follows:
-
-* Logistic regression
-* Logistic regression with polynomial features
-* Logistic regression with polynomial features and L2 regularization
-* Decision tree
-* Random forest
-* Gradient boosting
+* Pipelines to streamline modelling
+* MinMax and Standard scalers to normalize data
+* PCA and t-SNE algorythims for dimensionality reduction
+* K-Means, EM-Model and Agglomerative Clustering models
+* GridSearchCV for hyper parameters optimization
 
 ## Technology stack
 Whily working on this project I have mastered:
@@ -33,22 +22,23 @@ Whily working on this project I have mastered:
 * scikit-learn
 
 ## Conclusions
-* A good improvement in the metric value has been observed while moving from the basic logistic regression model to the gradient boosting.
-* Regularization proved itself as a good mean against overfitting.
+* Customers have been distributed over 7 clusters, where each cluster has a specific business meaning
+* Radar chart is a powerful tool to present different parameters of clusters
+* Classification can be used to determine to which cluster new data belongs
 
 ## Figures
-Distribution of log trip duration by by vendor as a histogram
+Recency/Frequency/Monetary distribution without outliers
 
-![Distribution of log trip duration by by vendor as a histogram](https://i.imgur.com/2ECZKak.png)
+![Recency/Frequency/Monetary distribution without outliers](https://i.imgur.com/ud9PzpR.png)
 
-Relation between the pick-up day of week and pick-up hour
+Clustered two-dimensional RFM distribution
 
-![Relation between the pick-up day of week and pick-up hour](https://i.imgur.com/cBpmXhX.png)
+![Clustered two-dimensional RFM distribution](https://i.imgur.com/ytbLqCX.png)
 
-Geographic location of pick-up points
+Two-dimensional RFM distribution by t-SNE decomposition
 
-![Geographic location of pick-up points](https://i.imgur.com/fo8yzgG.png)
+![Two-dimensional RFM distribution by t-SNE decomposition](https://i.imgur.com/gxt2IZy.png)
 
-RMSE dynamics on train and validation datasets
+Cluster distribution: radar chart
 
-![RMSE dynamics on train and validation datasets](https://i.imgur.com/IMCrCAR.png)
+![Cluster distribution: radar chart](https://i.imgur.com/9lvNJpi.png)

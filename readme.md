@@ -10,6 +10,11 @@ In addition I am working on a library of reusable code for data-science purposes
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
 
+#### Project 6. Customer Segmentation
+The goal is to segment ecommerce customers into clusters and to be able to predict to which claster new customers will belong. To do that we clean the data, perform basic exploratory data analysis, select the meaningful features and build the RFM (Recency/Frequency/Monetary) model. We experiment with feature space reduction using the PCA and t-SNE algorithms; use K-Means, EM-Model (GaussianMixture) and Agglomerative Clustering to build the segments. And finally we transition from the clustering to classification tasks to predict the cluster of new customers. See [Project-6.Customer_segmentation.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-6/Project-6.Customer_segmentation.ipynb)
+
+For more details see: [Project-6 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-6/readme.md)
+
 #### Project 5. Taxi Ride Duration
 The goal of the project is to build a regression model to predict a taxi ride duration and thus be able to calculate the taxi ride price. Before that the data gets cleaned, basic exploratory data analysis are performed, categorical features get encoded, important features get selected and and the data is normalied. Then several regression models are being built and compared with each other using the Root Mean Squared Log Error metric. See [Project-5.Taxi_ride_duration.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-5/Project-5.Taxi_ride_duration.ipynb)
 
