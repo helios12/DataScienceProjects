@@ -43,6 +43,12 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-10. Time Series - Forecast Ghana GDP
+The goal of the task is to analyze the time series of Ghana GDP from 1960 till 2021 and predict the GDP of Ghana using different forecasting models.
+See: [Task-10-MATH-ML-13.Time_series.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-10/Task-10-MATH-ML-13.Time_series.ipynb)
+
+For more details see: [Task-10 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-10/readme.md)
+
 #### Task-9. Text Classification Using Naive Bayes Classifier
 The goal of the task is to use naive Bayes classifier to determine if an email is a spam or not. I used the ComplementNB classifier implementation from the sklearn library for that.
 See: [Task-9.MATH-ML-7.Naive_bayes_classifier.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-9/Task-9.MATH-ML-7.Naive_bayes_classifier.ipynb)
