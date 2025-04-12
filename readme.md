@@ -43,6 +43,12 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-11. A/B Testing - Analysis of the Effectiveness of Two Landing Page Variants
+The goal of this task is to analyze data which has been collected as part of an A/B test. By using statistic tests and confidence intervals we need to identify whether conversion rate and average bill are better in one of the groups (A or B).
+See: [Task-11-AB-Testing-Two-Landing-Pages.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-11/Task-11-AB-Testing-Two-Landing-Pages.ipynb)
+
+For more details see: [Task-11 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-11/readme.md)
+
 #### Task-10. Time Series - Forecast Ghana GDP
 The goal of the task is to analyze the time series of Ghana GDP from 1960 till 2021 and predict the GDP of Ghana using different forecasting models.
 See: [Task-10-MATH-ML-13.Time_series.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-10/Task-10-MATH-ML-13.Time_series.ipynb)
