@@ -3,6 +3,9 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Folder Structure
 
+### Task-11. A/B Testing - Analysis of the Effectiveness of Two Landing Page Variants
+Link: [Task-11](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-11)
+
 ### Task-10. Time Series - Forecast Ghana GDP
 Link: [Task-10](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-10)
 
