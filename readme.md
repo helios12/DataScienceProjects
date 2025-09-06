@@ -10,6 +10,11 @@ In addition I am working on a library of reusable code for data-science purposes
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
 
+#### Project 7. Identification of vulnerable population groups
+The goal of the project was to identify vulnerable population groups and to point out the regions of Russia which require assistance for the low-income segements of the population. The project has numerous data sources like population statistics over years, child mortality, income, living conditions etc. The data needs to be cleaned, loaded and prepared to train a model. While cleaning the data a visual analysis of data must be performed. See [Project-7.Identification_of_vulnerable_population_groups.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-7/Project-7.Identification_of_vulnerable_population_groups.ipynb)
+
+For more details see: [Project-7 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-7/readme.md)
+
 #### Project 6. Customer Segmentation
 The goal is to segment ecommerce customers into clusters and to be able to predict to which claster new customers will belong. To do that we clean the data, perform basic exploratory data analysis, select the meaningful features and build the RFM (Recency/Frequency/Monetary) model. We experiment with feature space reduction using the PCA and t-SNE algorithms; use K-Means, EM-Model (GaussianMixture) and Agglomerative Clustering to build the segments. And finally we transition from the clustering to classification tasks to predict the cluster of new customers. See [Project-6.Customer_segmentation.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-6/Project-6.Customer_segmentation.ipynb)
 
