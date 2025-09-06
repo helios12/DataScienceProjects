@@ -3,6 +3,9 @@ This folder contains the projects, on which I have been working in the frames of
 
 ## Folder Structure
 
+### Project 7. Identification of vulnerable population groups
+Link: [Project-7](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-7)
+
 ### Project 6. Customer Segmentation
 Link: [Project-6](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-6)
 
