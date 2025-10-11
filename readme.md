@@ -10,6 +10,11 @@ In addition I am working on a library of reusable code for data-science purposes
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
 
+#### Project 8. Image Classification - Guess a Celebrity
+The goal of the project is to train a neural network to classify images based on predefined classes. There are five classes representing celebrities from the tech space. The resulting model must classify new images based on these five classes. To do that we take a pretrained ResNet-34 model and apply different transfer learning strategies to train the model. We must reach the accuracy of above 85 % on the trained model. See [Project-8.Computer_vision_image_classification.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-8/Project-8.Computer_vision_image_classification.ipynb)
+
+For more details see: [Project-8 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-8/readme.md)
+
 #### Project 7. Identification of vulnerable population groups
 The goal of the project was to identify vulnerable population groups and to point out the regions of Russia which require assistance for the low-income segements of the population. The project has numerous data sources like population statistics over years, child mortality, income, living conditions etc. The data needs to be cleaned, loaded and prepared to train a model. While cleaning the data a visual analysis of data must be performed. See [Project-7.Identification_of_vulnerable_population_groups.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-7-final/Project-7.Identification_of_vulnerable_population_groups.ipynb)
 

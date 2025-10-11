@@ -3,6 +3,9 @@ This folder contains the projects, on which I have been working in the frames of
 
 ## Folder Structure
 
+### Project 8. Image Classification - Guess a Celebrity
+Link: [Project-8](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-8)
+
 ### Project 7. Identification of vulnerable population groups
 Link: [Project-7](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-7-final)
 

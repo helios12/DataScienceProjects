@@ -7,6 +7,7 @@ The data volume in the training data set (3000 images) is rather small compared 
 * Freeze the weights, replace the final dense layer, and update the weights only on the final dense layer.
 * Freeze the weights, remove the last CNN layer, replace the final dense layer, and update the weights only on the final dense layer.
 * Freeze the weights, remove the last two CNN layers, replace the final dense layer, and update the weights only on the final dense layer.
+* Freeze the weights, remove the last residual layer comprising 3 CNN layers, replace the final dense layer, and update the weights only on the final dense layer.
 
 Removal of the last CNN layers is done because they contain the high level image information which is not applicable to the train dataset.
 
@@ -25,3 +26,7 @@ Whily working on this project I have mastered:
 Random samples of train and validation images
 
 ![Random samples of train and validation images](https://i.imgur.com/fVMDsOy.jpg)
+
+Loss function and top-1 accuracy
+
+![Loss function and top-1 accuracy](https://i.imgur.com/NRkNuzV.png)
