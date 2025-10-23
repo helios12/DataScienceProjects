@@ -3,6 +3,9 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Folder Structure
 
+### Task-12. Practise YOLOv5 - Image Detection
+Link: [Task-12](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-12)
+
 ### Task-11. A/B Testing - Analysis of the Effectiveness of Two Landing Page Variants
 Link: [Task-11](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-11)
 

@@ -19,3 +19,5 @@ projects/project-8/data/train/
 projects/project-8/data/valid/
 resources/
 settings.py
+tasks/task-12/data/
+yolov5s.pt
