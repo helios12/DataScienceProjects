@@ -3,5 +3,5 @@ path: data/yolo
 train: images/train
 val: images/val
 
-nc: 4
-names: ['unknown', 'without_mask', 'with_mask', 'mask_weared_incorrect']
+nc: 3
+names: ['without_mask', 'with_mask', 'mask_weared_incorrect']
