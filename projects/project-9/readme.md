@@ -1,4 +1,4 @@
-# Project 8. Detection of medical masks
+# Project 9. Detection of medical masks
 Link: [Project-9.Detection_of_medical_masks.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-9/Project-9.Detection_of_medical_masks.ipynb)
 
 The goal of the project is to train two image detection models (RCNN and YOLO) on a dataset of images containing people wearing medical masks. The resulting model must detect images of people wearing medical masks, wearing them incorrectly or not wearing a medical mask. The data is labeled for the consumption by the RCNN model. Preparing labels for consumption by YOLO is also a part of the task. The minimum target mAP metric for both of the models is 0.85.

@@ -10,6 +10,11 @@ In addition I am working on a library of reusable code for data-science purposes
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
 
+#### Project 9. Detection of medical masks
+The goal of the project is to train two image detection models (RCNN and YOLO) on a dataset of images containing people wearing medical masks. The resulting model must detect images of people wearing medical masks, wearing them incorrectly or not wearing a medical mask. The data is labeled for the consumption by the RCNN model. Preparing labels for consumption by YOLO is also a part of the task. The minimum target mAP metric for both of the models is 0.85. See [Project-9.Detection_of_medical_masks.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-9/Project-9.Detection_of_medical_masks.ipynb)
+
+For more details see: [Project-9 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-9/readme.md)
+
 #### Project 8. Image Classification - Guess a Celebrity
 The goal of the project is to train a neural network to classify images based on predefined classes. There are five classes representing celebrities from the tech space. The resulting model must classify new images based on these five classes. To do that we take a pretrained ResNet-34 model and apply different transfer learning strategies to train the model. We must reach the accuracy of above 85 % on the trained model. See [Project-8.Computer_vision_image_classification.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-8/Project-8.Computer_vision_image_classification.ipynb)
 
