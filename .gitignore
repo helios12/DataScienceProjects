@@ -23,4 +23,6 @@ projects/project-9/yolov5mu.pt
 resources/
 settings.py
 tasks/task-12/data/
+tasks/task-13/data/
 yolov5s.pt
+.venv/
