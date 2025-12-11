@@ -24,5 +24,6 @@ resources/
 settings.py
 tasks/task-12/data/
 tasks/task-13/data/
+tasks/task-13/lightning_logs/
 yolov5s.pt
 .venv/

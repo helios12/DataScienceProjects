@@ -3,6 +3,9 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Folder Structure
 
+### Task-13. Practise Segmentation
+Link: [Task-12](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-13)
+
 ### Task-12. Practise YOLOv5 - Image Detection
 Link: [Task-12](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-12)
 

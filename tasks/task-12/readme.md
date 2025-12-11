@@ -7,6 +7,7 @@ The goal of the task is to learn the YOLO techniques. In the first part of the t
 While working on this task I have mastered:
 
 * python
+* pytorch
 * YOLOv5
 * Matplotlib
 

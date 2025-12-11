@@ -58,12 +58,17 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-13. Practise Segmentation
+The goal of the task is to train a segmentation model. Using the Oxford-IIIT Pet Dataset an image segmentation model should be trained. The dataset contains the masks. On the validation step the IoU metric value of at least 0.7 must be achieved.
+See: [Task-13-Segmentation_practice.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-13/Task-13-Segmentation_practice.ipynb)
+
+For more details see: [Task-13 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-13/readme.md)
+
 #### Task-12. Practise YOLOv5 - Image Detection
 The goal of the task is to learn the YOLO techniques. In the first part of the task I prepared annotations in the YOLO format and used a pre-trained YOLO model to performed inference. In the second part of the task the goal is to use a more standardized `train.py` file provided by ultralytics, train up-to at least mAP=0.85 and present the visual results using the bboxes and their classes.
 See: [Task-12-Yolov5-Image-Detection.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-12/Task-12-Yolov5-Image-Detection.ipynb)
 
 For more details see: [Task-12 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-12/readme.md)
-
 
 #### Task-11. A/B Testing - Analysis of the Effectiveness of Two Landing Page Variants
 The goal of this task is to analyze data which has been collected as part of an A/B test. By using statistic tests and confidence intervals we need to identify whether conversion rate and average bill are better in one of the groups (A or B).
