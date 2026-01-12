@@ -20,10 +20,12 @@ projects/project-8/data/valid/
 projects/project-9/data
 projects/project-9/runs
 projects/project-9/yolov5mu.pt
+projects/project-10/data/
 resources/
 settings.py
 tasks/task-12/data/
 tasks/task-13/data/
 tasks/task-13/lightning_logs/
+testenv/
 yolov5s.pt
 .venv/
