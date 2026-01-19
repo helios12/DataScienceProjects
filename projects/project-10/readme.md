@@ -1,13 +1,8 @@
-# Project 9. Detection of medical masks
+# Project 10. Segmentation of space objects
 Link: [Project-10.Satellites_segmentation.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-10/Project-10.Satellites_segmentation.ipynb)
 
 The goal of the project is to pick and train an image segmentation model on a dataset of satelite images. The dataset contains images of satelites and image masks with segments referring to parts of the satelite like the body, solar panel and antenna, marked, respectively, with three colors - green, red and blue.
-
-!!!Continue here.
-
-The goal of the project is to train two image detection models (RCNN and YOLO) on a dataset of images containing people wearing medical masks. The resulting model must detect images of people wearing medical masks, wearing them incorrectly or not wearing a medical mask. The data is labeled for the consumption by the RCNN model. Preparing labels for consumption by YOLO is also a part of the task. The minimum target mAP metric for both of the models is 0.85.
-
-The training time of both models must be recorded and compared. Assuming the achieved mAP metric of both models is the same, the training time will be the deciding factor of the model performance.
+Train model must segment arbitrary satelite images with the mIoU value of above 0.7. Inference results of the trained model must be visualized.
 
 ## Technology stack
 Whily working on this project I have mastered:
@@ -16,8 +11,8 @@ Whily working on this project I have mastered:
 * pytorch
 * torchvision
 * matplotlib
-* Faster RCNN
-* YOLO v5
+* DeepLabV3 with a ResNet-50 backbone
+
 
 ## Conclusions
 The Faster RCNN model has reached the `mAP_50`value of 0.86 after 20 epochs and 8.96 hours of training.

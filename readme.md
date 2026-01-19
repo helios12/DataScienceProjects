@@ -10,6 +10,12 @@ In addition I am working on a library of reusable code for data-science purposes
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
 
+#### Project 10. Segmentation of space objects
+The goal of the project is to pick and train an image segmentation model on a dataset of satelite images. The dataset contains images of satelites and image masks with segments referring to parts of the satelite like the body, solar panel and antenna, marked, respectively, with three colors - green, red and blue.
+Train model must segment arbitrary satelite images with the mIoU value of above 0.7. Inference results of the trained model must be visualized. See [Project-10.Satellites_segmentation.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-10/Project-10.Satellites_segmentation.ipynb)
+
+For more details see: [Project-10 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-10/readme.md)
+
 #### Project 9. Detection of medical masks
 The goal of the project is to train two image detection models (RCNN and YOLO) on a dataset of images containing people wearing medical masks. The resulting model must detect images of people wearing medical masks, wearing them incorrectly or not wearing a medical mask. The data is labeled for the consumption by the RCNN model. Preparing labels for consumption by YOLO is also a part of the task. The minimum target mAP metric for both of the models is 0.85. See [Project-9.Detection_of_medical_masks.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-9/Project-9.Detection_of_medical_masks.ipynb)
 

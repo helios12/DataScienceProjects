@@ -3,6 +3,9 @@ This folder contains the projects, on which I have been working in the frames of
 
 ## Folder Structure
 
+### Project 10. Segmentation of space objects
+Link: [Project-10](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-10)
+
 ### Project 9. Detection of medical masks
 Link: [Project-9](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-9)
 
