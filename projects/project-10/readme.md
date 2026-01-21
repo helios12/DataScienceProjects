@@ -15,34 +15,24 @@ Whily working on this project I have mastered:
 
 
 ## Conclusions
-The Faster RCNN model has reached the `mAP_50`value of 0.86 after 20 epochs and 8.96 hours of training.
-The YOLO 5m model has reached  the `mAP_50`value of 0.85 after 20 epochs and 1.3 hours of training.
+The trained model has achieved the mIoU value of 0.71 on the validatation dataset, which is above the target defined for this project.
 
-So, the achieved metric value is very close. As expected the YOLO model has shown a better training time with a factor of around 7. Which is close to the expected 10-fold difference in training time between Faster RCNN and YOLO 5. Also taking into account the YOLO model setup simplicity, I would personally prefer it for usage in my projects.
+Inference examples visually confirm a good level of segmentation.
 
 
 ## Figures
-RCNN labels 1
+Satelite image segmentation 1
 
-![RCNN labels 1](https://i.imgur.com/ptgAfXq.png)
+![Satelite image segmentation 1](https://i.imgur.com/3zOdflE.png)
 
-RCNN predicions 1
+Satelite image segmentation 2
 
-![RCNN predicions 1](https://i.imgur.com/fkBHMSv.png)
+![Satelite image segmentation 2](https://i.imgur.com/E4K3ndh.png)
 
-RCNN labels 2
+Satelite image segmentation 3
 
-![RCNN labels 2](https://i.imgur.com/57tBJt0.png)
+![Satelite image segmentation 3](https://i.imgur.com/pz0kfg2.png)
 
-RCNN predicions 2
+Satelite image segmentation 4
 
-![RCNN predicions 2](https://i.imgur.com/8G3NJYz.png)
-
-YOLO labels 1
-
-![YOLO labels 1](https://i.imgur.com/9PAqQeJ.jpg)
-
-YOLO predicions 1
-
-![YOLO predicions 1](https://i.imgur.com/crxoJee.jpg)
-
+![Satelite image segmentation 4](https://i.imgur.com/4GD2xPo.png)
