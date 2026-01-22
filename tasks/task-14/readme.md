@@ -17,7 +17,9 @@ I was able to define and train the variational autoencoder model. Images receive
 ## Figures
 
 Original image and the image reconstructed after the 1st epoch.
+
 ![Original image and the image reconstructed after the 1st epoch](https://i.imgur.com/lp3mZGX.png)
 
 Original image and the image reconstructed after the 20th epoch.
+
 ![Original image and the image reconstructed after the 20th epoch](https://i.imgur.com/B9eSxQ2.png)
