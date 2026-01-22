@@ -3,6 +3,9 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Folder Structure
 
+### Task-14. Variational Autoencoder
+Link: [Task-14](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-14)
+
 ### Task-13. Practise Segmentation
 Link: [Task-13](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-13)
 

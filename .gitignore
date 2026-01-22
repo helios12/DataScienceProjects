@@ -27,6 +27,7 @@ tasks/task-12/data/
 tasks/task-13/data/
 tasks/task-13/lightning_logs/
 tasks/task-14/data/
+tasks/task-14/output*.png
 testenv/
 yolov5s.pt
 .venv/

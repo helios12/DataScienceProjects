@@ -64,6 +64,12 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-14. Variational Autoencoder
+The goal of the task is to define and train a variational autoencoder model using the Frey rawface dataset. Use reparametrization and VAE specific loss function. Then visualize the images reconstructed by the decoder and make sure that reconstructed images get sharper as the algorithm is progressing through the epochs.
+See: [Task-14-Variational_autoencoder_VAE.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-14/Task-14-Variational_autoencoder_VAE.ipynb)
+
+For more details see: [Task-14 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-14/readme.md)
+
 #### Task-13. Practise Segmentation
 The goal of the task is to train a segmentation model. Using the Oxford-IIIT Pet Dataset an image segmentation model should be trained. The dataset contains the masks. On the validation step the IoU metric value of at least 0.7 must be achieved.
 See: [Task-13-Segmentation_practice.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-13/Task-13-Segmentation_practice.ipynb)
