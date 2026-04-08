@@ -10,6 +10,11 @@ In addition I am working on a library of reusable code for data-science purposes
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
 
+#### Project 11. Image Style Transfer
+The goal of the project is to implement an image style transfer algorithm and then be able to apply the trained model in a different application to an arbitrary image. The style is defined by a collection of 268 paintings of Van Gogh. The model is a feed-forward convolutional neural network that transforms a content image into a stylized version. A pretrained VGG19 network is used for feature extraction. A python console application has been developed to apply the style to an arbitrary image. See [Project-11.Image_style_transfer_model.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-11/Project-11.Image_style_transfer_model.ipynb)
+
+For more details see: [Project-11 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-11/readme.md)
+
 #### Project 10. Segmentation of space objects
 The goal of the project is to pick and train an image segmentation model on a dataset of satelite images. The dataset contains images of satelites and image masks with segments referring to parts of the satelite like the body, solar panel and antenna, marked, respectively, with three colors - green, red and blue.
 Train model must segment arbitrary satelite images with the mIoU value of above 0.7. Inference results of the trained model must be visualized. See [Project-10.Satellites_segmentation.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-10/Project-10.Satellites_segmentation.ipynb)
