@@ -69,6 +69,12 @@ For more details see: [Project-1 -> readme](https://github.com/helios12/DataScie
 ### Tasks
 Link: [Tasks](https://github.com/helios12/DataScienceProjects/tree/main/tasks)
 
+#### Task-15. Image Captioning
+The goal of the task is to generate captions to an image. To do that we will use a hybrid architecture linking CNN and LSTM. By varying the embedding size and the number of epochs we need to empirically check whether the quality of captions generation can be improved. Models will be trained on the `Flickr8k` dataset.
+See: [Task-15-Image_Captioning.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-15/Task-15-Image_Captioning.ipynb)
+
+For more details see: [Task-15 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-15/readme.md)
+
 #### Task-14. Variational Autoencoder
 The goal of the task is to define and train a variational autoencoder model using the Frey rawface dataset. Use reparametrization and VAE specific loss function. Then visualize the images reconstructed by the decoder and make sure that reconstructed images get sharper as the algorithm is progressing through the epochs.
 See: [Task-14-Variational_autoencoder_VAE.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-14/Task-14-Variational_autoencoder_VAE.ipynb)

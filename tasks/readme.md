@@ -3,6 +3,9 @@ In this folder I am giving a brief description of the tasks, which have been sol
 
 ## Folder Structure
 
+### Task-15. Variational Autoencoder
+Link: [Task-15](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-15)
+
 ### Task-14. Variational Autoencoder
 Link: [Task-14](https://github.com/helios12/DataScienceProjects/blob/main/tasks/task-14)
 
