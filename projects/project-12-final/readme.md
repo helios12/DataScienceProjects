@@ -3,7 +3,7 @@ Link: [Project-12.Development_of_a_virtual_fitness_trainer.ipynb](https://github
 
 This project develops a video-based human movement similarity evaluation system intended for use in an automated fitness trainer. The system analyzes a reference exercise video and a user-recorded performance by extracting human body keypoints using a deep-learning-based pose estimation model. The extracted pose sequences are normalized and compared using confidence-weighted similarity metrics, while Dynamic Time Warping (DTW) is employed to align movements performed at different speeds. The implementation is developed in Python using PyTorch, Torchvision, OpenCV, NumPy, and DTW-based sequence alignment techniques.
 
-The similarity evaluation pipline consists of the following steps:
+The similarity evaluation pipeline consists of the following steps:
 * Extract video frames from the reference and user-recorded exercise videos using OpenCV.
 * Detect human body keypoints in each frame using the pre-trained Keypoint R-CNN model from Torchvision.
 * Convert detected keypoints into pose representations and associate them with confidence scores.
@@ -21,6 +21,7 @@ Whily working on this project I have mastered:
 * pytorch
 * torchvision
 * OpenCV
+* Dynamic Time Warping (DTW)
 
 ## Conclusions
 This project successfully demonstrates a pipeline for evaluating the similarity of human movements from video recordings. By combining pose estimation, pose normalization, confidence-weighted similarity metrics, and Dynamic Time Warping, the system can compare exercises performed at different speeds and provide an objective similarity score. Validation experiments showed that the pipeline reliably distinguishes between identical and reproduced movements while maintaining high alignment accuracy. The developed approach provides a practical foundation for future fitness coaching applications capable of automatically assessing exercise performance from video.
