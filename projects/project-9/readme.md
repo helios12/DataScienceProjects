@@ -6,7 +6,7 @@ The goal of the project is to train two image detection models (RCNN and YOLO) o
 The training time of both models must be recorded and compared. Assuming the achieved mAP metric of both models is the same, the training time will be the deciding factor of the model performance.
 
 ## Technology stack
-Whily working on this project I have mastered:
+While working on this project I have mastered:
 
 * python
 * pytorch

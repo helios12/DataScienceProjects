@@ -12,7 +12,7 @@ The data volume in the training data set (3000 images) is rather small compared 
 Removal of the last CNN layers is done because they contain the high level image information which is not applicable to the train dataset.
 
 ## Technology stack
-Whily working on this project I have mastered:
+While working on this project I have mastered:
 
 * python
 * pytorch

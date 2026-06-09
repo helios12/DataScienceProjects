@@ -11,7 +11,7 @@ In the data preparation step I have used the following techniques:
 * K-Means, Agglomerative Clustering, Gaussian Mixture, Spectral Clustering and DBSCAN models
 
 ## Technology stack
-Whily working on this project I have mastered:
+While working on this project I have mastered:
 
 * python
 * pandas

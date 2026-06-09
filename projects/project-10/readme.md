@@ -5,7 +5,7 @@ The goal of the project is to pick and train an image segmentation model on a da
 Train model must segment arbitrary satelite images with the mIoU value of above 0.7. Inference results of the trained model must be visualized.
 
 ## Technology stack
-Whily working on this project I have mastered:
+While working on this project I have mastered:
 
 * python
 * pytorch

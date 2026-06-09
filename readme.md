@@ -4,11 +4,14 @@ If you are just interested in data science, please feel free to contact me with 
 ## Highlights
 For the moment the following project on taxi ride duration analysis including data cleaning, exploratory data analysis, building a regression model and evaluating the quality of the model prediciton results, is the most illustrative example of my work: [Project-5.Taxi_ride_duration.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-5/Project-5.Taxi_ride_duration.ipynb)
 
-In addition I am working on a library of reusable code for data-science purposes:
-[Data Science Helpers](https://github.com/helios12/DataScienceProjects/tree/main/DataScienceHelpers)
 ## Repo Structure
 ### Projects
 Link: [Projects](https://github.com/helios12/DataScienceProjects/tree/main/projects)
+
+#### Project 12. Final Project: Development of a Virtual Fitness Trainer
+This project develops a video-based human movement similarity evaluation system intended for use in an automated fitness trainer. The system analyzes a reference exercise video and a user-recorded performance by extracting human body keypoints using a deep-learning-based pose estimation model. The extracted pose sequences are normalized and compared using confidence-weighted similarity metrics, while Dynamic Time Warping (DTW) is employed to align movements performed at different speeds. The implementation is developed in Python using PyTorch, Torchvision, OpenCV, NumPy, and DTW-based sequence alignment techniques. See [Project-12.Development_of_a_virtual_fitness_trainer.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-12-final/Project-12.Development_of_a_virtual_fitness_trainer.ipynb)
+
+For more details see: [Project-12 -> readme](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-12-final/readme.md)
 
 #### Project 11. Image Style Transfer
 The goal of the project is to implement an image style transfer algorithm and then be able to apply the trained model in a different application to an arbitrary image. The style is defined by a collection of 268 paintings of Van Gogh. The model is a feed-forward convolutional neural network that transforms a content image into a stylized version. A pretrained VGG19 network is used for feature extraction. A python console application has been developed to apply the style to an arbitrary image. See [Project-11.Image_style_transfer_model.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-11/Project-11.Image_style_transfer_model.ipynb)

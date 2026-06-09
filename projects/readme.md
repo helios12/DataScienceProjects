@@ -3,6 +3,9 @@ This folder contains the projects, on which I have been working in the frames of
 
 ## Folder Structure
 
+### Project 12. Final Project: Development of a Virtual Fitness Trainer
+Link: [Project-12](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-12-final)
+
 ### Project 11. Image Style Transfer
 Link: [Project-11](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-11)
 

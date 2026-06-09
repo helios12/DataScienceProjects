@@ -10,7 +10,7 @@ The goal of the project was to perform data cleaning, exploratory data analysis,
 * Logged the results to Comet ML
 
 ## Technology stack
-Whily working on this project I have mastered:
+While working on this project I have mastered:
 
 * python
 * pandas

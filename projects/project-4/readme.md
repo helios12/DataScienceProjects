@@ -20,7 +20,7 @@ In the modelling step I went from simple to more complicated models as follows:
 * Random forest with hyper-parameter optimization using optuna
 
 ## Technology stack
-Whily working on this project I have mastered:
+While working on this project I have mastered:
 
 * python
 * pandas

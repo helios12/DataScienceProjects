@@ -9,7 +9,7 @@ The goal of the project was to practise SQL knowledge on a database which contai
 * Data science job openings analysis to get more insights into this courese's industry 
 
 ## Technology stack
-Whily working on this project I have mastered:
+While working on this project I have mastered:
 
 * SQL
 * python

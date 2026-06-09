@@ -14,7 +14,7 @@ In the data preparation step I have used the following techniques:
 * GridSearchCV for hyper parameters optimization
 
 ## Technology stack
-Whily working on this project I have mastered:
+While working on this project I have mastered:
 
 * python
 * pandas
