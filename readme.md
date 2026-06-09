@@ -1,8 +1,9 @@
 # Data Science Projects
-During my Data Scientist course at SkillFactory I am solving tasks and working on projects. I am presenting the solutions of those tasks and projects as well as auxiliary code here for any potential employers. 
-If you are just interested in data science, please feel free to contact me with any questions.
+During my Data Scientist course at SkillFactory I am working on projects and tasks. I am presenting the solutions of those tasks and projects as well as auxiliary code here for any potential employers. 
+If you are interested in data science, please feel free to contact me with any questions.
 ## Highlights
-For the moment the following project on taxi ride duration analysis including data cleaning, exploratory data analysis, building a regression model and evaluating the quality of the model prediciton results, is the most illustrative example of my work: [Project-5.Taxi_ride_duration.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-5/Project-5.Taxi_ride_duration.ipynb)
+**Project 12 – Final Project: Development of a Virtual Fitness Trainer** represents the culmination and highlight of the Skill Factory Data Science course, bringing together the concepts and techniques developed throughout the previous eleven projects. The project applies advanced computer vision and deep learning methods to analyze and compare human movements from video recordings using neural-network-based pose estimation and temporal alignment techniques. As the most comprehensive and technically challenging project in the course, it demonstrates the practical application of data science, machine learning, and neural networks to solve a real-world problem.
+ [Project-12.Development_of_a_virtual_fitness_trainer.ipynb](https://github.com/helios12/DataScienceProjects/blob/main/projects/project-12-final/Project-12.Development_of_a_virtual_fitness_trainer.ipynb)
 
 ## Repo Structure
 ### Projects
